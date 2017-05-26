@@ -22,13 +22,18 @@
    3. 如果你的需求是实现双向通信，比如聊天程序，那么在服务和客户端都要监听事件和广播事件，如果
    不理解这点的话可以自行看代码尝试
    
-  ## 启动方法：
+   !image[https://github.com/wflin/web-chat/tree/master/docs/login.png]
+   !image[https://github.com/wflin/web-chat/tree/master/docs/chat.png]
+## 启动方法：
     npm install
+    
     修改 socket.js中的ip和端口
+    
     cd server
+    
     node index.js
+    
     npm run dev
-> A Vue.js project
 
 ## 前端常用编译方法
 
@@ -54,5 +59,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
