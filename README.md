@@ -23,9 +23,10 @@
    3. 如果你的需求是实现双向通信，比如聊天程序，那么在服务和客户端都要监听事件和广播事件，如果
    不理解这点的话可以自行看代码尝试
    
-   #欢迎访问我的个人主页，目前在开发中  https://wflin.github.io/
+   # 欢迎访问我的个人主页，目前在开发中  https://wflin.github.io/
    博客主页 https://my.oschina.net/martin123/blog
    
+   # web-chat截图
    ![image](https://github.com/wflin/web-chat/raw/master/docs/login.png)
    ![image](https://github.com/wflin/web-chat/raw/master/docs/chat.png)
 ## 启动方法：
