@@ -22,8 +22,8 @@
    3. 如果你的需求是实现双向通信，比如聊天程序，那么在服务和客户端都要监听事件和广播事件，如果
    不理解这点的话可以自行看代码尝试
    
-   ![image](https://github.com/wflin/web-chat/tree/master/docs/login.png)
-   ![image](https://github.com/wflin/web-chat/tree/master/docs/chat.png)
+   ![image](https://github.com/wflin/web-chat/raw/master/docs/login.png)
+   ![image](https://github.com/wflin/web-chat/raw/master/docs/chat.png)
 ## 启动方法：
     npm install
     
