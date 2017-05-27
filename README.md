@@ -27,6 +27,14 @@
    博客主页 https://my.oschina.net/martin123/blog
    
    # web-chat截图
+   ## 服务端
+   * 1 每个客户端连接后，在服务器会维持这个连接，同时可以将客户端信息保存下来，当客户端断开时，服务器能及时知晓。  
+   ![image](https://github.com/wflin/web-chat/raw/master/docs/server.png)
+   
+   ## 客户端
+   * 1 群聊和私聊，在前台界面上同事用了elementUI和VueMaterial两种ui组件库。
+   * 2 可以实现更多功能，如当张三在输入时，对方可以显示“张三正在输入”,类似微信的聊天功能。
+   * 3 如果要运行此示例，要将socket.js中的export default io.connect('ws://172.31.59.59:8000');中的ip改成自己server的ip。  
    ![image](https://github.com/wflin/web-chat/raw/master/docs/login.png)
    ![image](https://github.com/wflin/web-chat/raw/master/docs/chat.png)
 ## 启动方法：
